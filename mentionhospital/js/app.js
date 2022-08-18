@@ -34,23 +34,23 @@ $(document).ready(function(){
 
     
     // start adv section
-    // $('#videos').click(function(){
+    $('#videos').click(function(){
 
-    //     var getmodal = $(this).data('bs-target');
-    //     var getvideosrc = $(this).data('video');
-    //     var videourlwidthauto = getvideosrc+"?autoplay=1";
+        var getmodal = $(this).data('bs-target');
+        var getvideosrc = $(this).data('video');
+        var videourlwidthauto = getvideosrc+"?autoplay=1";
 
-    //     $(getmodal + ' iframe').attr('src',videourlwidthauto);
+        $(getmodal + ' iframe').attr('src',videourlwidthauto);
 
-    //     $(getmodal + ' button.btn-close').click(function(){
-    //         $(getmodal + ' iframe').attr('src',getvideosrc);
-    //     })
+        $(getmodal + ' button.btn-close').click(function(){
+            $(getmodal + ' iframe').attr('src',getvideosrc);
+        })
 
-    //     $(getmodal).click('hidden.bs.modal',function(){
-    //         $(getmodal + ' iframe').attr('src',getvideosrc);
-    //     })
+        $(getmodal).click('hidden.bs.modal',function(){
+            $(getmodal + ' iframe').attr('src',getvideosrc);
+        })
 
-    // })
+    })
     // end adv section
 
 
